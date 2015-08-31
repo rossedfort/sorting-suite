@@ -36,5 +36,5 @@ module SortingSuite
 end
 
 
-SortingSuite::MergeSort.new([3, 2, 1]).sort
-SortingSuite::MergeSort.new([5,3,4,2,1]).sort
+puts SortingSuite::MergeSort.new([3, 2, 1]).sort
+puts SortingSuite::MergeSort.new([5,3,4,2,1]).sort

@@ -41,5 +41,5 @@ module SortingSuite
 end
 
 
-SortingSuite::BubbleSort.new([4,2,5,3,1]).sort
-SortingSuite::BubbleSort.new([3,2,1]).sort
+puts SortingSuite::BubbleSort.new([4,2,5,3,1]).sort
+puts SortingSuite::BubbleSort.new([3,2,1]).sort
