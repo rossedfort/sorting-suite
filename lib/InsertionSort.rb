@@ -7,7 +7,7 @@ module SortingSuite
     end
 
     def sort
-      @numbers.each_with_index do |value, index|              #
+      @numbers.each_with_index do |value, index|
         while index > 0 && value < @numbers[index-1]
           @numbers[index] = @numbers[index-1]
           index -= 1
