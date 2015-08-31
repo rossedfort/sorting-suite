@@ -1,5 +1,4 @@
 require 'minitest/autorun'
-require 'minitest/emoji'
 require './lib/MergeSort'
 
 class MergeSortTests < Minitest::Test

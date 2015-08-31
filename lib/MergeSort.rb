@@ -5,16 +5,17 @@ module SortingSuite
     def initialize(numbers)
       @numbers = numbers
     end
-
+#takes in the array
     def sort(numbers = @numbers)
+#
       return numbers if numbers.count <= 1
       mid = numbers.count/2
       first_half = numbers.slice(0, mid)
       second_half =  numbers.slice(mid, numbers.count)
-
+#recursion
       sorted_first_half = sort(first_half)
       sorted_second_half = sort(second_half)
-
+#implements the merge method
       merge(sorted_first_half, sorted_second_half)
     end
 

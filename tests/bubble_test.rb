@@ -1,5 +1,4 @@
 require 'minitest/autorun'
-require 'minitest/emoji'
 require './lib/BubbleSort'
 
 class BubbleSortTests < Minitest::Test
