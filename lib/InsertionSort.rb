@@ -8,11 +8,17 @@ module SortingSuite
 
     def sort
       @numbers.each_with_index do |value, index|
-        while index > 0 && value < @numbers[index-1]
-          @numbers[index] = @numbers[index-1]
-          index -= 1
-        end
-        @numbers[index] = value
+      @index = index
+      @value = value
+        merge
+      end
+    end
+
+    def merge
+        while @index > 0 && @value < @numbers[@index-1]
+          @numbers[@index] = @numbers[@index-1]
+          @index -= 1
+        @numbers[@index] = @value
       end
       @numbers
     end
