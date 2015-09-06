@@ -1,5 +1,5 @@
-Evaluator: Mike
-Notes: Good testing, some long methods.
+Evaluator: Mike \n
+Notes: Good testing, some long methods.\n
 Scores:
 * Functional Expectations: 3
 * Testing: 3
