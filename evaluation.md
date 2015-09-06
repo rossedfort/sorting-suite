@@ -1,4 +1,3 @@
-------NOTES---------
 Evaluator: Mike
 Notes: Good testing, some long methods.
 Scores:
